@@ -1,3 +1,4 @@
+
 const slides = [
 	{
 		"image":"slide1.jpg",
@@ -16,3 +17,20 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+
+//----------click des flèches--------------------------------------------//
+
+
+const clickLeft = document . querySelector (".arrow_left");
+const clickRight = document . querySelector (".arrow_right");
+
+clickLeft . addEventListener ('click' , () =>{
+	console.log("Click gauche !");
+}
+)
+
+clickRight . addEventListener ('click' , () =>{
+	console.log("Click droit!");
+}
+)
